@@ -1,0 +1,62 @@
+.vms-form-label {
+    word-break: break-word;
+}
+.invalid-feedback {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #f5325c;
+    word-break: break-word;
+}
+.page-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.home {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.invalid-feedback {
+    height: 12px;
+}
+.text-right {
+    text-align: right;
+    margin-right: 10px;
+}
+.table-layout {
+    overflow-x: hidden;
+}
+.topbar {
+    z-index: map-get($map: $zIndex, $key: topbar) !important;
+}
+.page-content {
+    max-height: calc(100vh - 106px);
+}
+.pagination-select {
+    span {
+        font-size: 13px;
+    }
+}
+::-ms-reveal {
+    display: none;
+}
+.card-header {
+    min-height: 55px;
+    h4 {
+        font-size: 16px;
+    }
+}
+::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    height: 12px;               /* height of the entire scrollbar */
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 170, 170);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+}

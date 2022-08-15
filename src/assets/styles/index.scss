@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import './custom.scss';
+
+html {
+    height: 100%;
+}
+.main_body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    min-height: 100%;
+}

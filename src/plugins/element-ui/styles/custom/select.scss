@@ -1,0 +1,15 @@
+.el-select__popper {
+    transform: translateY(-12px);
+}
+.el-dropdown__popper {
+    transform: translateY(-11px);
+}
+.el-select-dropdown__item {
+    padding-left: 13px;
+    &.selected {
+        .el-icon {
+            position: unset !important;
+            right: 0 !important;
+        }
+    }
+}

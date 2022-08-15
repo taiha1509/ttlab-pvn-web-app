@@ -1,0 +1,6 @@
+@use 'var.scss' as *;
+
+.el-input__inner {
+    color: $vms-text-color-primary;
+    height: 36px !important;
+}

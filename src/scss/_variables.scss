@@ -1,0 +1,23 @@
+// z-index management
+$zIndex: (
+    zIndex1: 1,
+    dot: 10,
+    workOrderRight: 20,
+    table: 30,
+    tableHeader: 40,
+    input: 50,
+    calendar: 60,
+    select: 80,
+    header: 100,
+    treeView: 110,
+    navigationDrawer: 200,
+    sidebar: 200,
+    topbar: 200,
+    fullscreen: 250,
+    accountMenu: 600,
+    tooltip: 800,
+    dialog: 1500,
+    loadingOverlay: 3000,
+    flashMessage: 5000,
+    notification: 10000,
+);

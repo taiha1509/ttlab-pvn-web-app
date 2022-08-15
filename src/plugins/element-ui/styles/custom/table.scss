@@ -1,0 +1,20 @@
+@use 'var.scss' as *;
+
+.el-table {
+    color: $vms-text-color-primary;
+    thead {
+        color: $vms-text-color-primary;
+    }
+
+    tbody td {
+        padding: 0 !important;
+        height: 43px;
+    }
+}
+
+.el-table__fixed-right-patch {
+    border-bottom: 0px;
+}
+.el-table__empty-block {
+    border-bottom: 1px solid #e9ecef;
+}

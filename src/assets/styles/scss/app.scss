@@ -1,0 +1,60 @@
+/*
+Template Name: Dastone - Admin & Dashboard Template
+Author: Mannatthemes
+Version: 2.0.0
+File: App Css
+*/
+
+//Core files
+@import "../plugins/bootstrap/functions";
+@import "../plugins/bootstrap/variables";
+@import "variables";
+@import "../plugins/bootstrap/mixins";
+
+
+// Structure
+@import "structure/leftbar";
+@import "structure/topbar";
+@import "structure/footer";
+@import "structure/horizontal-nav";
+
+// Components
+@import "components/reboot";
+@import "components/waves";
+@import "components/card";
+@import "components/nav";
+@import "components/badge";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/tables";
+@import "components/progress";
+@import "components/alert";
+@import "components/forms";
+@import "components/modals";
+@import "components/switch";
+@import "components/form-advanced";
+@import "components/form-validation";
+@import "components/form-wizard";
+@import "components/form-editor";
+@import "components/spinners";
+
+
+
+// Plugins
+@import "plugins/simplebar";
+@import "plugins/maps";
+@import "plugins/charts";
+@import "plugins/calendar";
+@import "plugins/rangeslider";
+@import "plugins/sweet-alert";
+@import "plugins/nastable";
+@import "plugins/prittify-code";
+@import "plugins/tippy";
+@import "plugins/fonts";
+@import "plugins/tinymce";
+
+
+
+// Pages
+@import "pages/general";
+@import "pages/background-color";

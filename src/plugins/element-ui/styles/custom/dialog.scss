@@ -1,0 +1,41 @@
+@use '@/scss/_variables.scss' as *;
+
+.el-dialog {
+    border-radius: 12px;
+    overflow: auto !important;
+    z-index: map-get($map: $zIndex, $key: dialog) !important;
+    @media only screen and (max-width: 576px) {
+        width: 90% !important;
+    }
+    @media only screen and (min-width: 576px) {
+        margin-top: 12vh !important;
+    }
+    .el-dialog__overlay {
+        z-index: map-get($map: $zIndex, $key: dialog) !important;
+    }
+
+    .el-dialog__header {
+        padding-top: 15px;
+        padding-bottom: 5px;
+        background-color: #fafafa;
+        margin-right: 0px;
+    }
+    .el-dialog__body {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        @media only screen and (max-height: 768px) {
+            max-height: 60vh;
+        }
+        @media only screen and (min-height: 768px) {
+            max-height: 70vh;
+        }
+    }
+    .el-dialog__footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .el-dialog__body {
+        padding: 20px;
+        overflow-y: auto;
+    }
+}

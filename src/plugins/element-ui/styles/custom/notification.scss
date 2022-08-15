@@ -1,0 +1,8 @@
+@use '@/scss/_variables.scss' as *;
+
+.el-notification {
+    z-index: map-get($map: $zIndex, $key: notification) !important;
+}
+.el-notification__content {
+    text-align: left;
+}

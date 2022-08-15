@@ -1,0 +1,98 @@
+@use 'var.scss' as *;
+
+.el-button {
+    border-color: #dcdfe6;
+    &:focus,
+    &:hover {
+        color: $vms-primary;
+        border-color: $vms-primary;
+        background-color: $vms-white;
+    }
+    &.is-plain {
+        background-color: $vms-white;
+        color: #303e67 !important;
+        &.is-plain, &.is-plain:focus {
+            color: #303e67;
+            background-color: white;
+            border-color: #dcdfe6 !important;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            border-color: $vms-primary !important;
+        }
+    }
+    &--success {
+        background-color: $vms-success;
+        border-color: $vms-success;
+        &.is-plain, &.is-plain:focus {
+            color: $vms-success;
+            background: $vms-white;
+            border-color: #bad8ac;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            background-color: $vms-success;
+            border-color: $vms-success;
+            color: $vms-white;
+        }
+    }
+    &--warning {
+        background-color: $vms-warning;
+        border-color: $vms-warning;
+        &.is-plain, &.is-plain:focus {
+            color: $vms-warning;
+            background: $vms-white;
+            border-color: #fad6b7;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            background-color: $vms-warning;
+            border-color: $vms-warning;
+            color: $vms-white;
+        }
+    }
+    &--danger,
+    &--error {
+        background-color: $vms-danger;
+        border-color: $vms-danger;
+        &.is-plain, &.is-plain:focus {
+            color: $vms-danger;
+            background: $vms-white;
+            border-color: #f2aaaa;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            background-color: $vms-danger;
+            border-color: $vms-danger;
+            color: $vms-white;
+        }
+    }
+    &--default {
+        color: $vms-text-color-primary !important;
+        &.is-plain, &.is-plain:focus {
+            color: $vms-text-color-primary;
+            background-color: white;
+            border-color: $vms-info !important;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            border-color: $vms-primary;
+        }
+    }
+    &--primary {
+        color: $vms-white !important;
+        background-color: $vms-primary;
+        border-color: $vms-primary;
+        &.is-plain, &.is-plain:focus {
+            color: $vms-primary;
+            background: $vms-white;
+            border-color: $vms-default;
+        }
+        &:hover,
+        &:focus, &.is-plain:hover {
+            background-color: $vms-primary;
+            border-color: $vms-primary;
+            color: $vms-white;
+        }
+    }
+}
